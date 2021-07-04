@@ -1,0 +1,88 @@
+*{
+	margin: 0; padding: 0;
+}
+
+h4.time-detail {
+    position: absolute;
+    z-index: 2;
+    bottom: 70px;
+    left: 40px;
+    font-size: 20px;
+    font-style: italic;
+    background: wheat;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+button.btn-delete {
+    position: absolute;
+    z-index: 2;
+    bottom: 16px;
+    right: 20px;
+}
+
+h3.time {
+    position: absolute;
+    z-index: 2;
+    left: 30px;
+    top: 125px;
+    background: wheat;
+    padding: 10px 20px;
+    border-radius: 12px;
+    transition: 0.4s;
+    font-size: 22px;
+}
+
+h1.title {
+    position: absolute;
+    z-index: 2;
+    top: 25px;
+    left: 30px;
+    background: lightblue;
+    color: black;
+    padding: 10px 30px;
+    border-radius: 12px;
+    font-weight: bold;
+}
+
+button.btn-edit {
+    position: absolute;
+    z-index: 2;
+    bottom: 16px;
+    right: 115px;
+}
+
+.layer-02 {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #00000047;
+    opacity: 0;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.layer-01 {
+    transition: 0.4s;
+}
+
+.catrgory-item {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    overflow:hidden;
+    margin:auto;
+}
+
+.catrgory-item:hover .layer-01{
+	transform:scale(1.2);
+}
+
+.catrgory-item:hover .layer-02{
+	opacity:1;
+}
